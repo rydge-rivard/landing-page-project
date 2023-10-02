@@ -34,7 +34,7 @@ header ul{
     gap: 24px;
 }
 
-.split-one {
+.left-one {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
