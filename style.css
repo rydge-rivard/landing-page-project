@@ -167,3 +167,13 @@ button {
     display: flex;
     flex: none;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+    padding: 42px 0;
+    background-color: #1f2937;
+    bottom: 0;
+}
