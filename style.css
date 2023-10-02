@@ -142,3 +142,28 @@ button {
     font-weight: 600;
     font-size: 22px;
 }
+
+.block-four {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 96px 200px;
+    padding: 42px 0;
+    background-color: #3883f6;
+    border-radius: 12px;
+}
+
+.cta-text {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+
+.block-four button {
+    border: #f9faf8;
+    border-width: 2px;
+    border-style: solid;
+    padding: 8px 24px;
+    display: flex;
+    flex: none;
+}
