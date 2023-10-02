@@ -24,7 +24,7 @@ ul {
 header {
     display: flex;
     justify-content: space-between;
-    padding: 6px 0;
+    padding: 0 0 60px;
     align-items: center;
     flex: none;
     width: 100%;
@@ -35,13 +35,17 @@ header ul{
     gap: 24px;
 }
 
+.hero {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
 .left-one {
     display: flex;
     flex-direction: column;
     max-width: 45%;
-    max-height: 40%;
     justify-content: center;
-    align-content: space-between;
 }
 
 .right-one {
@@ -50,9 +54,10 @@ header ul{
 }
 
 .right-one img {
-    max-width: 400px;
-    max-height: auto;
-    flex: 0 3 100px;
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    margin: auto;
 }
 
 button {
