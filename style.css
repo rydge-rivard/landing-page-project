@@ -3,16 +3,29 @@
 body {
     font-family: "Roboto";
     display: flex;
+    justify-content: center;
 }
 
 ul {
     list-style-type: none;
 }
 
-.block-one {
+header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    width: 100%;
+}
+
+header ul{
+    display: flex;
+    gap: 12px;
 }
 
 .split-one {
     display: flex;
+    flex-direction: column;
+    height: 100px;
+    flex-wrap: wrap;
 }
