@@ -2,8 +2,10 @@
 
 body {
     font-family: "Roboto";
+    margin: 0;
+    padding: 0;
     display: flex;
-    justify-content: center;
+    width: auto;
 }
 
 ul {
@@ -13,19 +15,24 @@ ul {
 header {
     display: flex;
     justify-content: space-between;
+    padding: 6px 12px;
     align-items: center;
-    top: 0;
-    width: 100%;
 }
 
 header ul{
     display: flex;
-    gap: 12px;
+    gap: 24px;
 }
 
 .split-one {
     display: flex;
     flex-direction: column;
-    height: 100px;
     flex-wrap: wrap;
+}
+
+.block-one{
+    background-color: #1f2937;
+    color: #f9faf8;
+    flex-grow: 1;
+    padding: 0 15% 4%;
 }
