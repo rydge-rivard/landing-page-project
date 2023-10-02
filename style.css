@@ -10,7 +10,7 @@ body {
     background-color: #1f2937;
     color: #f9faf8;
     flex: auto;
-    padding: 0 15% 7%;
+    padding: 0 15% 6%;
     display: flex;
     justify-content: space-between;
     gap: 10%;
@@ -41,6 +41,15 @@ header ul{
     margin: 0;
 }
 
+.light-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+h1 {
+    font-size: 24px;
+}
+
 .left-one {
     display: flex;
     flex-direction: column;
@@ -62,6 +71,12 @@ header ul{
 
 button {
     max-width: 120px;
-    padding: 6px 12px;
-    margin: 6px 0;
+    padding: 8px 12px;
+    margin: 12px 0;
+    border-radius: 8px;
+    border: none;
+    background-color: #3883f6;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
 }
