@@ -119,3 +119,26 @@ button {
 .info div {
     text-align: center;
 }
+
+.block-three {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5% 20%;
+    flex-wrap: wrap;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quote-owner {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 600;
+    font-size: 22px;
+}
